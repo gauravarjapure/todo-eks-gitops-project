@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Build Docker Image
           command: |
-            docker build -t $DOCKERHUB_USERNAME/todo-app:$CIRCLE_BUILD_NUM .
+            docker build -t $DOCKERHUB_USERNAME/todo-app:$CIRCLE_BUILD_NUM Appcode
 
       - run:
           name: Login to Docker Hub
