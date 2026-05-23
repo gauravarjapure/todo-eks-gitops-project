@@ -12,7 +12,7 @@ jobs:
 
       - run:
           name: Install dependencies
-          command: npm install
+          command: cd Appcode && npm install
 
       - run:
           name: Run tests (optional)
