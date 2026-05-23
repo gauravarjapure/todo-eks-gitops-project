@@ -20,7 +20,7 @@ spec:
       containers:
       - name: todo-app
 
-        image: gauravarjapure/todo-app:v1
+        image: gauravarjapure/todo-app:18
 
         ports:
         - containerPort: 3000
