@@ -17,6 +17,9 @@ jobs:
       - run:
           name: Run tests (optional)
           command: echo "No tests configured"
+      - run:
+          name: Check username
+          command: echo "USERNAME=$DOCKERHUB_USERNAME"
 
       - run:
           name: Build Docker Image
